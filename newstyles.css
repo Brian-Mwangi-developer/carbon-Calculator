@@ -1,0 +1,155 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-size: 1.2em;
+}
+
+/* Calculator container */
+.calculator-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+}
+.alert-danger{
+    color:red;
+}
+.calculator-container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Radio buttons styling */
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+/* Calculate button styling */
+#calculate-btn {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#calculate-btn:hover {
+    background-color: #005555;
+}
+
+/* Results container styling */
+.results-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.results-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.carbon-score {
+    font-size: 2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.carbon-info {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Recalculate button styling */
+#recalculate-btn {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#recalculate-btn:hover {
+    background-color: #005555;
+}
+
+/* Add styles for the recommendation */
+.recommendation-container {
+    background-color: #f9f9f9; /* Background color for the recommendation */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .recommendation {
+    font-size: 1.2em;
+    color: #333; /* Text color for the recommendation */
+  }
+  
+  .recommendation.green {
+    color: green; /* Color for a low carbon footprint */
+  }
+  
+  .recommendation.orange {
+    color: orange; /* Color for a moderate carbon footprint */
+  }
+  
+  .recommendation.red {
+    color: red; /* Color for a high carbon footprint */
+  }
+  
